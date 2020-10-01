@@ -7,5 +7,7 @@ echo "Hello World!" . "<br>";
 echo "<br>";
 echo "Hello an amazing event, " . $eventName . "!" . "<br>";
 echo "<br>";
+echo "Cheers," . "<br>";
+echo $myName . ":)"
 
 ?>
