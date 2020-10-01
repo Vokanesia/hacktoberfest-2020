@@ -7,19 +7,19 @@ fun main() {
     doHack(months)
 }
 
-/ show your name once
+// show your name once
 fun showYourName(name: String){
     print(name)
 }
 
-/ show your name based on size
+// show your name based on size
 fun showYourNameInLoop(size: IntRange, name: String){
     for(i in size){
         println(name)
     }
 }
 
-/ we love october <3
+// we love october <3
 fun doHack(months: ArrayList<Int>){
     for (i in months.indices){
         if (i == 10) {
